@@ -1,0 +1,3 @@
+- compile with `yarn run compile`
+- start a local node with `yarn run start-node`
+- deploy with `yarn run deploy`
