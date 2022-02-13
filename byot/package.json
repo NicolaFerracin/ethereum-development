@@ -1,0 +1,7 @@
+{
+  "name": "byot",
+  "description": "Bring your own token - create an ERC20 token with a few simple clicks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
