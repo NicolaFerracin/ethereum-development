@@ -10,4 +10,8 @@ contract TokenFactory {
         Token token = new Token(_name,_symbol,_initialSupply, _decimals);
         tokens.push(address(token));
     }
+
+    function getAllTokens() public view returns(address[] memory) {
+        return tokens;
+    }
 }
