@@ -1,5 +1,5 @@
 import web3 from "./web3";
-import tokenFactory from "../../ethereum/artifacts/contracts/TokenFactory.sol/TokenFactory.json";
+import tokenFactory from "../contracts/TokenFactory.sol/TokenFactory.json";
 
 const instance = new web3.eth.Contract(
   tokenFactory.abi,

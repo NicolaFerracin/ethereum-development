@@ -16,6 +16,6 @@
   "scripts": {
     "compile": "hardhat compile",
     "start-node": "hardhat node",
-    "deploy": "hardhat run ./scripts/deploy.js"
+    "deploy": "hardhat run ./scripts/deploy.js && cp -R ./artifacts/contracts ../app"
   }
 }
