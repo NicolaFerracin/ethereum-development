@@ -2,6 +2,7 @@ import Web3 from "web3";
 
 let provider;
 if (typeof window !== "undefined" && window.ethereum) {
+  console.log("here");
   window.ethereum.request({ method: "eth_requestAccounts" });
   provider = window.ethereum;
 } else {

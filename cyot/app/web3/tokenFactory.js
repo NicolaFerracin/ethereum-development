@@ -3,7 +3,7 @@ import tokenFactory from "../../ethereum/artifacts/contracts/TokenFactory.sol/To
 
 const instance = new web3.eth.Contract(
   tokenFactory.abi,
-  "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0"
+  "0x0B379AA12ff6278317050649E2A5900C75bcfB57"
 );
 
 export default instance;
