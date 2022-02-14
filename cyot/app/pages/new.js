@@ -47,7 +47,7 @@ function New() {
       }
       setIsLoading(false);
     },
-    [name, symbol, decimals, initialSupply]
+    [router, name, symbol, decimals, initialSupply]
   );
 
   return (
@@ -102,7 +102,7 @@ function New() {
             value={initialSupply}
             onChange={(e) => setInitialSupply(e.target.value)}
           />
-          <InputRightAddon children="ether" />
+          <InputRightAddon>ether</InputRightAddon>
         </InputGroup>
       </FormControl>
       <Button type="submit" colorScheme="teal" mt={10} isLoading={isLoading}>
