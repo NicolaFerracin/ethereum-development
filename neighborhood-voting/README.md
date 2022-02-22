@@ -1,8 +1,14 @@
 # neighborhood-voting
 
-Visit site: TODO
+Visit site: https://neighborhood-voting.vercel.app/
 
-Create a system for residents in your neighborhood to vote for projects",
+Create a system for residents in your neighborhood to vote for projects
+
+- As a manager you can create a neighborhood, verify residents and create proposals.
+- Verified residents can contribute and vote on their neighborhood's proposals.
+- At the end of the voting process, managers can either
+  - finalize a proposal receiving the collected funds
+  - reject it giving each contributor the possibility to withdraw their contribution to that proposal
 
 ## Solidity
 
